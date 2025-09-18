@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "data (things)"
+    },
+    "data_tracked": false,
+    "description": "Define variables within your workflows. You can store any type of data, including files and users, and choose to save either a single item or a list of items. These variables can be accessed and used at any point in your workflow.",
+    "image": "//meta-q.cdn.bubble.io/f1757143234900x951859047558505600/workflow%20variable.jpg",
+    "license": "open_source",
+    "name": "Advanced Workflow Variables – CoBP",
+    "sa_node_version": 22
+}

@@ -1,0 +1,32 @@
+{
+    "category": "plugins",
+    "display": "store variable (list)",
+    "fields": {
+        "AAH": {
+            "caption": "Type of the variable",
+            "doc": "Select the type of data you want the variable to store.",
+            "editor": "custom_type",
+            "name": "variable_type",
+            "rank": 0
+        },
+        "AAI": {
+            "caption": "Variables",
+            "doc": "The list of data you want to use as a variable in this workflow.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "variable",
+            "rank": 1,
+            "value": "custom_data_AAH"
+        }
+    },
+    "return_value": {
+        "AAJ": {
+            "caption": "values",
+            "is_list": true,
+            "name": "value",
+            "rank": 0,
+            "value": "custom_data_AAH"
+        }
+    },
+    "type": "server_side"
+}

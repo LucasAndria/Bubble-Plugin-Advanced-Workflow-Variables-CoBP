@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "store variable",
+    "fields": {
+        "AAD": {
+            "caption": "Type of the variable",
+            "doc": "Select the type of data you want the variable to store.",
+            "editor": "custom_type",
+            "name": "variable_type",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Variable",
+            "doc": "The data you want to use as a variable in this workflow.",
+            "editor": "DynamicValue",
+            "name": "variable",
+            "optional": false,
+            "rank": 1,
+            "value": "custom_data_AAD"
+        }
+    },
+    "return_value": {
+        "AAF": {
+            "caption": "value",
+            "name": "value",
+            "rank": 0,
+            "value": "custom_data_AAD"
+        }
+    },
+    "type": "server_side"
+}
